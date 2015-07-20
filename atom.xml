@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-07-21T00:05:06+08:00</updated>
+  <updated>2015-07-21T00:29:21+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Word]]></title>
+    <link href="http://jammydu.github.io/blog/2015/07/21/hello-word/"/>
+    <updated>2015-07-21T00:26:46+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/07/21/hello-word</id>
+    <content type="html"><![CDATA[<p>欢迎来到我的hellow—world</p>
+
+<p>现在我已创建了自己的库，稀里糊涂搞了半天，最后仍然是稀里糊涂地的。然而现在我并不知道自己在干嘛其实。我会进一步慢慢完善它的。</p>
+]]></content>
+  </entry>
   
 </feed>
