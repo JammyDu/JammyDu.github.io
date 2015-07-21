@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-07-21T00:29:21+08:00</updated>
+  <updated>2015-07-21T22:32:55+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[博客的使用]]></title>
+    <link href="http://jammydu.github.io/blog/2015/07/21/the-use-of-blog/"/>
+    <updated>2015-07-21T20:22:33+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/07/21/the-use-of-blog</id>
+    <content type="html"><![CDATA[<p>  1、windows+R调出命令行；
+  <br/>
+  2、输入<code>E:</code>→回车；
+  <br/>
+  3、输入<code>cd dev</code>→回车；
+  <br/>
+  4、输入<code>cd octopress</code>→回车；
+  <br/>
+  5、输入<code>rake new_post["名字"]</code>→回车；
+  <br/>
+  6、输入<code>rake preview</code>→回车；
+  <br/>
+  7、用浏览器打开<a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a>
+  <br/>
+    命令行会弹出文件的所在路径，然后去所在目录文件夹下打开博客的题目，就可以进行编辑了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello Word]]></title>
