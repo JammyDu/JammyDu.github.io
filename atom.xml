@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-07-21T22:32:55+08:00</updated>
+  <updated>2015-07-21T22:36:53+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -31,6 +31,8 @@
   6、输入<code>rake preview</code>→回车；
   <br/>
   7、用浏览器打开<a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a>
+  <br />
+  8、输入<code>rake deploy</code>→回车,可以发布到远程服务器；
   <br/>
     命令行会弹出文件的所在路径，然后去所在目录文件夹下打开博客的题目，就可以进行编辑了。</p>
 ]]></content>
