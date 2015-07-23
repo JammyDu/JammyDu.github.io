@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-07-21T22:36:53+08:00</updated>
+  <updated>2015-07-23T23:44:38+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HTME总结]]></title>
+    <link href="http://jammydu.github.io/blog/2015/07/23/summary/"/>
+    <updated>2015-07-23T22:22:48+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/07/23/summary</id>
+    <content type="html"><![CDATA[<h3>html</h3>
+
+
+<p><br/></p>
+
+<p><strong>1、标签</strong><code>&lt;a href="url"&gt;link test&lt;/a&gt;；</code><br/>
+<strong>2、图像：定义图像</strong><code>&lt;img src="url"/&gt;;</code><br/></p>
+
+<p><strong>3、表格：</strong>表头用<code>&lt;th&gt;</code>定义</br>
+<code>&lt;table&gt;</code><br/>
+         <code>&lt;tr&gt;</code>行<br/>
+        <code>&lt;td&gt;&lt;/td&gt;</code>被分成的单元格<strong><strong><br/>
+<code>&lt;/tr&gt;</code></br>
+        <code>&lt;/table&gt;</code></br>
+</strong>4、列表：</strong></br>
+无序列表始于<code>&lt;ul&gt;</code>标签，每个列表项始于<code>&lt;li&gt;</code>;<br/>
+有序列表项始于<code>&lt;ol&gt;</code>标签，每个列表项始于<code>&lt;li&gt;</code>;<br/>
+自定义列表始于<code>&lt;dl&gt;</code>标签，每个列表项始于<code>&lt;dt&gt;</code>,列表项的定义以<code>&lt;dd&gt;</code>开始。<br/>
+<strong>5、表单：</strong><code>&lt;form&gt;&lt;/form&gt;</code>
+<br/>多数情况下被用到的表单标签是输入标签<code>&lt;input&gt;</code>；<br/>
+输入类型是由类型属性<code>&lt;type&gt;</code>定义的。<br/>
+<strong>6、单选按钮：(Radio Buttons)</strong><br/>
+<code>&lt;form&gt;</code><br/>
+<code>&lt;input type="radio" name="sex" value="正确"/&gt;正确</code><br/>
+<code>&lt;/form&gt;</code><br/>
+<strong>7、复选框：（Checkboxes）</strong><br/>
+<strong>8、表单的动作属性和确认按钮：</strong><br/></p>
+
+<p><code>&lt;form name="input" action="html_form_action.asp" method="get"&gt;</code><br/>
+<code>用户：
+&lt;input type="text" name="user"/&gt;</code><br/>
+<code>&lt;input type="submit" value="确认"/&gt;</code> <br/>
+<strong>9、定义下拉列表：</strong><br/>
+<code>&lt;form&gt;&lt;br/&gt;
+&lt;select&gt;&lt;br/&gt;
+&lt;option value=""&gt; &lt;/option&gt;
+&lt;/form&gt;</code><br/>
+<strong>10、单选按钮：</strong><br/>
+<code>&lt;form&gt;&lt;br/&gt;
+&lt;input type="button" value="确认"&gt;&lt;br/&gt;
+&lt;/form&gt;&lt;br/&gt;</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[问题]]></title>
+    <link href="http://jammydu.github.io/blog/2015/07/23/summary/"/>
+    <updated>2015-07-23T04:57:27+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/07/23/summary</id>
+    <content type="html"><![CDATA[<p>1、在markdown里用JS的注释语句为毛不灵；<br/>
+2、在markdown里怎样可以不把html的语句转换成html格式。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[博客的使用]]></title>
