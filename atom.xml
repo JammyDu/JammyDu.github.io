@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-07-23T23:44:38+08:00</updated>
+  <updated>2015-07-29T21:50:12+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Loop Statement]]></title>
+    <link href="http://jammydu.github.io/blog/2015/07/29/loop-statement/"/>
+    <updated>2015-07-29T09:17:44+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/07/29/loop-statement</id>
+    <content type="html"><![CDATA[<h1>循环语句</h1>
+
+
+<p>1、switch语句：<br/>
+case<br/>
+default<br/>
+break:中途退出<br/>
+2、do&hellip;while语句：是一种先运行后判断的语句，也就是说，不管条件是否满足，至少先运行一次。<br/>
+var box=1<br/>
+while (box&lt;=5){<br/>
+alert (box);<br/>
+box++;<br>
+}<br/>
+3、for语句：先判断，后运行，但它具有在执行循环之前初始变量和定义循环后要执行代码的能力。<br/>
+for(var box=1;box&lt;=5;box++){<br/>
+alert (box);<br/>
+}<br/>
+4、for&hellip;in语句：是一种精准的迭代语句，可以用来枚举对象的属性。<br/>
+var box={<br/>
+&lsquo;name&rsquo;:&lsquo;杜娟&rsquo;<br/>
+&lsquo;age&rsquo;:20<br/>
+&lsquo;height&rsquo;:162<br/>
+};<br/>
+for(var p in box){<br/>
+alert(p);<br/>
+}<br/>
+5、break和continue语句：用于在循环中精确地控制代码的执行，其中break语句会立即退出循环，强制执行循环体后面的语句。而break语句退出当前循环，继续后面的循环。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Informal Essay]]></title>
+    <link href="http://jammydu.github.io/blog/2015/07/24/informal-essay/"/>
+    <updated>2015-07-24T21:35:57+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/07/24/informal-essay</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HTME总结]]></title>
