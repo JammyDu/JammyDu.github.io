@@ -9,17 +9,8 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="循环语句 1、switch语句：
-case
-default
-break:中途退出
-2、do&hellip;while语句：是一种先运行后判断的语句，也就是说，不管条件是否满足，至少先运行一次。
-var box=1
-while (box&lt;=5){
-alert (box);
-box++;
-}
-3 &hellip;">
+  <meta name="description" content="
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +66,118 @@ box++;
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/08/26/review/">Review</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-08-26T13:51:39+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>1:51 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/08/25/install-java-development-environment/">Java开发环境搭建</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-08-25T23:14:51+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>25</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:14 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>JDK安装配置</h3>
+
+<ol>
+<li>下载JDK
+ <a href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html" title="JDK下载地址">JDK下载地址</a></li>
+<li>安装配置JDK
+1、打开”开始->计算机->属性->高级系统设置->环境变量“</li>
+</ol>
+
+
+<p>2、设置环境变量（当前最新的是1.8.0_25)，如下：</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>JAVA_HOME C:\Program Files\Java\jdk1.8.0_60
+</span><span class='line'>
+</span><span class='line'>CLASSPATH   .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+</span><span class='line'>
+</span><span class='line'>PATH             %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>3、验证是否配置成功
+在cmd下运行<code>javac.exe</code>或<code>where javac</code>
+4、在命令行下编译运行Java程序“hellow word”了解Java程序从编写到生成文件以及运行一个Java程序的过程
+    1.创建一个java源代码文件<code>HelloWord.java</code>,文件内容如下</p>
+
+<pre><code>```
+public class HelloWord {
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        System.out.println();
+        System.out.print("Hello Word!");
+    }
+}
+```
+
+2.调出命令行，切换目录到文件`HelloWord.java`所在目录
+3.编译Java源代码文件：在命令行下执行命令`javac HelloWord.java`,编译成功后会生成一个编译后的文件`HelloWord.class`
+4.运行Java编译生成的文件：在命令行下执行`java HelloWord`，执行成功后会打印“Hello Word!”
+</code></pre>
+
+<h3>FAQ</h3>
+
+<ol>
+<li>JDK和JRE是什么？</li>
+<li>JDK与JRE区别？</li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -165,7 +268,7 @@ alert(p);<br/>
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/07/23/summary/">HTME总结</a></h1>
+      <h1 class="entry-title"><a href="/blog/2015/07/23/summary/">HTML总结</a></h1>
     
     
       <p class="meta">
@@ -280,23 +383,44 @@ alert(p);<br/>
   </header>
 
 
-  <div class="entry-content"><p>  1、windows+R调出命令行；
-  <br/>
-  2、输入<code>E:</code>→回车；
-  <br/>
-  3、输入<code>cd dev</code>→回车；
-  <br/>
-  4、输入<code>cd octopress</code>→回车；
-  <br/>
-  5、输入<code>rake new_post["名字"]</code>→回车；
-  <br/>
-  6、输入<code>rake preview</code>→回车；
-  <br/>
-  7、用浏览器打开<a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a>
-  <br />
-  8、输入<code>rake deploy</code>→回车,可以发布到远程服务器；
-  <br/>
-    命令行会弹出文件的所在路径，然后去所在目录文件夹下打开博客的题目，就可以进行编辑了。</p>
+  <div class="entry-content"><ul>
+<li><p>在命令行下切换到博客目录</p>
+
+<ol>
+<li>windows+R调出命令行；</li>
+<li>输入<code>E:</code>→回车；</li>
+<li>输入<code>cd dev</code>→回车；</li>
+<li>输入<code>cd octopress</code>→回车；</li>
+</ol>
+</li>
+<li><p>创建一篇新博客</p>
+
+<ol>
+<li>输入<code>rake new_post["名字"]</code>→回车；</li>
+<li>在目录<code>E:\dev\octopress\source\_posts</code>下找到新建的博客文件用MarkdownPad 2软件打开编辑内容和保存</li>
+</ol>
+</li>
+<li><p>预览博客</p>
+
+<ol>
+<li>输入<code>rake preview</code>→回车；</li>
+<li>用浏览器打开<a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a></li>
+</ol>
+</li>
+<li><p>发布博客</p>
+
+<ol>
+<li>输入<code>rake deploy</code>→回车,可以发布到远程服务器；</li>
+</ol>
+</li>
+<li><p><em>特殊说明</em></p>
+
+<ul>
+<li>命令行会弹出文件的所在路径，然后去所在目录文件夹下打开博客的题目，就可以进行编辑了。</li>
+</ul>
+</li>
+</ul>
+
 </div>
   
   
@@ -348,6 +472,14 @@ alert(p);<br/>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/08/26/review/">Review</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/25/install-java-development-environment/">Java开发环境搭建</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/07/29/loop-statement/">Loop Statement</a>
       </li>
     
@@ -356,15 +488,7 @@ alert(p);<br/>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/07/23/summary/">HTME总结</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/23/summary/">问题</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/21/the-use-of-blog/">博客的使用</a>
+        <a href="/blog/2015/07/23/summary/">HTML总结</a>
       </li>
     
   </ul>
