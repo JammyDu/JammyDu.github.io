@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-08-26T13:52:23+08:00</updated>
+  <updated>2015-08-27T11:16:55+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Review]]></title>
+    <title type="html"><![CDATA[杂的文]]></title>
     <link href="http://jammydu.github.io/blog/2015/08/26/review/"/>
     <updated>2015-08-26T13:51:39+08:00</updated>
     <id>http://jammydu.github.io/blog/2015/08/26/review</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<h3>我是个程序员，我要掌握我计算机的一切，没错就应该是酱紫<img src="http://i.imgur.com/Sun1mIQ.jpg" alt="" /></h3>
 ]]></content>
   </entry>
   
