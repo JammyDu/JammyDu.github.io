@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-08-27T11:16:55+08:00</updated>
+  <updated>2015-08-31T16:26:47+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Java 命名规则]]></title>
+    <link href="http://jammydu.github.io/blog/2015/08/31/java-naming-rules/"/>
+    <updated>2015-08-31T16:19:00+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/08/31/java-naming-rules</id>
+    <content type="html"><![CDATA[<h1>约定俗成命名规则</h1>
+
+<ul>
+<li>类名的首字母大写；</li>
+<li>变量名和方法名的首字母小写；</li>
+<li>运用驼峰标志（如果名字由好几个单词构成，除了首字母遵循类名、变量名、方法名的命名规则外，其它单词的首字母都要大写。</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[杂的文]]></title>
