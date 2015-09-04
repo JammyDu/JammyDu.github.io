@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-08-31T16:26:47+08:00</updated>
+  <updated>2015-09-04T17:47:00+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[杂的文]]></title>
+    <link href="http://jammydu.github.io/blog/2015/09/04/miscellaneous-text/"/>
+    <updated>2015-09-04T17:39:11+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/09/04/miscellaneous-text</id>
+    <content type="html"><![CDATA[<p>开学就是字变丑了，人变傻了，智商变低了，感觉整个人都被恢复出厂化了，明天要粗发了，一切顺利！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[对象的创建和使用]]></title>
+    <link href="http://jammydu.github.io/blog/2015/09/02/object-creation-and-use/"/>
+    <updated>2015-09-02T17:07:24+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/09/02/object-creation-and-use</id>
+    <content type="html"><![CDATA[<ol>
+<li>必须使用new关键字创建对象；</li>
+<li>使用对象引用.成员变量或来引用对象的成员变量；</li>
+<li>使用对象引用.方法（参数列表）来调用对象的方法；</li>
+<li>同一类的每个对象有不同的成员变量存储空间；</li>
+<li>同一类的每个对象共享该类的方法；</li>
+<li>非静态方法是针对每个对象调用。</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Java 命名规则]]></title>
