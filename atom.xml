@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-09-04T17:47:00+08:00</updated>
+  <updated>2015-09-10T14:54:20+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,11 +14,22 @@
 
   
   <entry>
+    <title type="html"><![CDATA[随笔]]></title>
+    <link href="http://jammydu.github.io/blog/2015/09/07/suishouji/"/>
+    <updated>2015-09-07T19:46:01+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/09/07/suishouji</id>
+    <content type="html"><![CDATA[<h2>头一天</h2>
+
+<p>今天是大二上课第一天，虽然是大二了但是感觉自己依旧像个大一新生一样，陌生的校园里陌生的宿舍、陌生的教室以及陌生的等等，去上个课花费在路上的时间快好45分钟里的二分之一了，一开始感觉就这样走着去上课也没啥，早点出发没事慢慢溜达呗，但是就在去图书馆借个书的路上我突然茅塞顿开，这尼玛明明是在浪费生命啊。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[杂的文]]></title>
     <link href="http://jammydu.github.io/blog/2015/09/04/miscellaneous-text/"/>
     <updated>2015-09-04T17:39:11+08:00</updated>
     <id>http://jammydu.github.io/blog/2015/09/04/miscellaneous-text</id>
-    <content type="html"><![CDATA[<p>开学就是字变丑了，人变傻了，智商变低了，感觉整个人都被恢复出厂化了，明天要粗发了，一切顺利！</p>
+    <content type="html"><![CDATA[<p>开学就是字变丑了，人变傻了，学的都忘了，智商变低了，感觉整个人都被恢复出厂化了，明天要粗发了，一切顺利！<img src="http://i.imgur.com/cGycw99.jpg" alt="" /></p>
 ]]></content>
   </entry>
   
