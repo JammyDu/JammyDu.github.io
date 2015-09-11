@@ -9,7 +9,11 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="头一天 今天是大二上课第一天，虽然是大二了但是感觉自己依旧像个大一新生一样，陌生的校园里陌生的宿舍、陌生的教室以及陌生的等等，去上个课花费在路上的时间快好45分钟里的二分之一了，一开始感觉就这样走着去上课也没啥，早点出发没事慢慢溜达呗，但是就在去图书馆借个书的路上我突然茅塞顿开， &hellip;">
+  <meta name="description" content="layout: post
+title: &ldquo;package 和 import语句&rdquo;
+date: 2015-09-11 21:26:59 +0800
+comments: true categories: 1.package 提供类的多重命名空间。
+2. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +69,51 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/09/11/package-and-import/">Package and Import</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-09-11T00:00:00+08:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>11</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><hr />
+
+<p>layout: post
+title: &ldquo;package 和 import语句&rdquo;
+date: 2015-09-11 21:26:59 +0800
+comments: true</p>
+
+<h2>categories: </h2>
+
+<p>1.package 提供类的多重命名空间。</br>
+2.package语句作为java源文件的第一条语句，指明该文件中定义的类的所在的包（若缺少该语句则指定为无名包）。</br>
+  格式为：package pkg/[.pkg]</br>
+3.java编译器把包对应于文件系统的目录管理，package语句中，用‘.’来指明包（目录）的层次。</br>
+例：package com.sxt;则该文件中所有的类位于.\com\sxt目录下。</br>
+4.import 引入（写在最开始，就不用在引入的类中写包的全名了）
+5.执行一个类需要写全包名
+6.自己生成jar包：调出命令行,工作路径定义到自己要建的包的上一层 jar-cvf test.jar<em>.</em> 生成完成之后会在根目录下生成test.jar</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -464,36 +513,6 @@ alert(p);<br/>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/23/summary/">问题</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-07-23T04:57:27+08:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>4:57 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>1、在markdown里用JS的注释语句为毛不灵；<br/>
-2、在markdown里怎样可以不把html的语句转换成html格式。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/2">&larr; Older</a>
@@ -509,6 +528,10 @@ alert(p);<br/>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/09/11/package-and-import/">Package and Import</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/09/07/suishouji/">随笔</a>
       </li>
     
@@ -522,10 +545,6 @@ alert(p);<br/>
     
       <li class="post">
         <a href="/blog/2015/08/31/java-naming-rules/">Java 命名规则</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/26/review/">杂的文</a>
       </li>
     
   </ul>
