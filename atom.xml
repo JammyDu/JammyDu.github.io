@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://jammydu.github.io/atom.xml" rel="self"/>
   <link href="http://jammydu.github.io/"/>
-  <updated>2015-09-11T22:40:01+08:00</updated>
+  <updated>2015-09-21T23:11:03+08:00</updated>
   <id>http://jammydu.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[继承中的构造方法]]></title>
+    <link href="http://jammydu.github.io/blog/2015/09/21/construction-method/"/>
+    <updated>2015-09-21T23:00:44+08:00</updated>
+    <id>http://jammydu.github.io/blog/2015/09/21/construction-method</id>
+    <content type="html"><![CDATA[<ol>
+<li>子类的构造过程中必须调用其基类的构造方法</li>
+<li>子类可以在自己的构造方法中使用super(argument_list)调用基类的构造方法{使用this(argument_list)调用本类的另外的构造方法；如果调用super 必须写在子类构造方法的第一行}</li>
+<li>如果子类的构造方法中没有显示地调用基类构造方法，则系统默认调用基类无参数的构造方法</li>
+<li>如果子类构造方法中既没有显示调用基类构造方法，而基类中有没有无参的构造方法，则编译出错</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Package and Import]]></title>

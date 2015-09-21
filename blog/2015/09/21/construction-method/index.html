@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Java 命名规则 - My Octopress Blog</title>
+  <title>继承中的构造方法 - My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="约定俗成命名规则 类名的首字母大写；
-变量名和方法名的首字母小写；
-运用驼峰标志（如果名字由好几个单词构成，除了首字母遵循类名、变量名、方法名的命名规则外，其它单词的首字母都要大写。 ">
+  <meta name="description" content="子类的构造过程中必须调用其基类的构造方法
+子类可以在自己的构造方法中使用super(argument_list)调用基类的构造方法{使用this(argument_list)调用本类的另外的构造方法；如果调用super 必须写在子类构造方法的第一行} &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jammydu.github.io/blog/2015/08/31/java-naming-rules/">
+  <link rel="canonical" href="http://jammydu.github.io/blog/2015/09/21/construction-method/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
@@ -70,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">Java 命名规则</h1>
+      <h1 class="entry-title">继承中的构造方法</h1>
     
     
       <p class="meta">
@@ -79,20 +78,19 @@
 
 
 
-<time class='entry-date' datetime='2015-08-31T16:19:00+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>4:19 pm</span></time>
+<time class='entry-date' datetime='2015-09-21T23:00:44+08:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>21</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>11:00 pm</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h1>约定俗成命名规则</h1>
-
-<ul>
-<li>类名的首字母大写；</li>
-<li>变量名和方法名的首字母小写；</li>
-<li>运用驼峰标志（如果名字由好几个单词构成，除了首字母遵循类名、变量名、方法名的命名规则外，其它单词的首字母都要大写。</li>
-</ul>
+<div class="entry-content"><ol>
+<li>子类的构造过程中必须调用其基类的构造方法</li>
+<li>子类可以在自己的构造方法中使用super(argument_list)调用基类的构造方法{使用this(argument_list)调用本类的另外的构造方法；如果调用super 必须写在子类构造方法的第一行}</li>
+<li>如果子类的构造方法中没有显示地调用基类构造方法，则系统默认调用基类无参数的构造方法</li>
+<li>如果子类构造方法中既没有显示调用基类构造方法，而基类中有没有无参的构造方法，则编译出错</li>
+</ol>
 
 </div>
 
@@ -109,7 +107,7 @@
 
 
 
-<time class='entry-date' datetime='2015-08-31T16:19:00+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>4:19 pm</span></time>
+<time class='entry-date' datetime='2015-09-21T23:00:44+08:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>21</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>11:00 pm</span></time>
       
 
 
@@ -124,10 +122,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/08/26/review/" title="Previous Post: 杂的文">&laquo; 杂的文</a>
+        <a class="basic-alignment left" href="/blog/2015/09/11/package-and-import/" title="Previous Post: Package And Import">&laquo; Package And Import</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/09/02/object-creation-and-use/" title="Next Post: 对象的创建和使用">对象的创建和使用 &raquo;</a>
       
     </p>
   </footer>

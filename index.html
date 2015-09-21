@@ -9,11 +9,8 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="layout: post
-title: &ldquo;package 和 import语句&rdquo;
-date: 2015-09-11 21:26:59 +0800
-comments: true categories: 1.package 提供类的多重命名空间。
-2. &hellip;">
+  <meta name="description" content="子类的构造过程中必须调用其基类的构造方法
+子类可以在自己的构造方法中使用super(argument_list)调用基类的构造方法{使用this(argument_list)调用本类的另外的构造方法；如果调用super 必须写在子类构造方法的第一行} &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,6 +66,41 @@ comments: true categories: 1.package 提供类的多重命名空间。
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/09/21/construction-method/">继承中的构造方法</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-09-21T23:00:44+08:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>21</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>11:00 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ol>
+<li>子类的构造过程中必须调用其基类的构造方法</li>
+<li>子类可以在自己的构造方法中使用super(argument_list)调用基类的构造方法{使用this(argument_list)调用本类的另外的构造方法；如果调用super 必须写在子类构造方法的第一行}</li>
+<li>如果子类的构造方法中没有显示地调用基类构造方法，则系统默认调用基类无参数的构造方法</li>
+<li>如果子类构造方法中既没有显示调用基类构造方法，而基类中有没有无参的构造方法，则编译出错</li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -444,75 +476,6 @@ alert(p);<br/>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/23/summary/">HTML总结</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-07-23T22:22:48+08:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>10:22 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>html</h3>
-
-
-<p><br/></p>
-
-<p><strong>1、标签</strong><code>&lt;a href="url"&gt;link test&lt;/a&gt;；</code><br/>
-<strong>2、图像：定义图像</strong><code>&lt;img src="url"/&gt;;</code><br/></p>
-
-<p><strong>3、表格：</strong>表头用<code>&lt;th&gt;</code>定义</br>
-<code>&lt;table&gt;</code><br/>
-         <code>&lt;tr&gt;</code>行<br/>
-        <code>&lt;td&gt;&lt;/td&gt;</code>被分成的单元格<strong><strong><br/>
-<code>&lt;/tr&gt;</code></br>
-        <code>&lt;/table&gt;</code></br>
-</strong>4、列表：</strong></br>
-无序列表始于<code>&lt;ul&gt;</code>标签，每个列表项始于<code>&lt;li&gt;</code>;<br/>
-有序列表项始于<code>&lt;ol&gt;</code>标签，每个列表项始于<code>&lt;li&gt;</code>;<br/>
-自定义列表始于<code>&lt;dl&gt;</code>标签，每个列表项始于<code>&lt;dt&gt;</code>,列表项的定义以<code>&lt;dd&gt;</code>开始。<br/>
-<strong>5、表单：</strong><code>&lt;form&gt;&lt;/form&gt;</code>
-<br/>多数情况下被用到的表单标签是输入标签<code>&lt;input&gt;</code>；<br/>
-输入类型是由类型属性<code>&lt;type&gt;</code>定义的。<br/>
-<strong>6、单选按钮：(Radio Buttons)</strong><br/>
-<code>&lt;form&gt;</code><br/>
-<code>&lt;input type="radio" name="sex" value="正确"/&gt;正确</code><br/>
-<code>&lt;/form&gt;</code><br/>
-<strong>7、复选框：（Checkboxes）</strong><br/>
-<strong>8、表单的动作属性和确认按钮：</strong><br/></p>
-
-<p><code>&lt;form name="input" action="html_form_action.asp" method="get"&gt;</code><br/>
-<code>用户：
-&lt;input type="text" name="user"/&gt;</code><br/>
-<code>&lt;input type="submit" value="确认"/&gt;</code> <br/>
-<strong>9、定义下拉列表：</strong><br/>
-<code>&lt;form&gt;&lt;br/&gt;
-&lt;select&gt;&lt;br/&gt;
-&lt;option value=""&gt; &lt;/option&gt;
-&lt;/form&gt;</code><br/>
-<strong>10、单选按钮：</strong><br/>
-<code>&lt;form&gt;&lt;br/&gt;
-&lt;input type="button" value="确认"&gt;&lt;br/&gt;
-&lt;/form&gt;&lt;br/&gt;</code></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/2">&larr; Older</a>
@@ -528,6 +491,10 @@ alert(p);<br/>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/09/21/construction-method/">继承中的构造方法</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/09/11/package-and-import/">Package and Import</a>
       </li>
     
@@ -541,10 +508,6 @@ alert(p);<br/>
     
       <li class="post">
         <a href="/blog/2015/09/02/object-creation-and-use/">对象的创建和使用</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/31/java-naming-rules/">Java 命名规则</a>
       </li>
     
   </ul>
